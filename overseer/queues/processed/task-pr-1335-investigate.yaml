@@ -1,0 +1,15 @@
+type: pr-investigate
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1335
+number: 1335
+priority: medium
+phase: 3
+createdAt: 2026-09-03T18:49:01Z
+enqueuedAt: 2026-09-03T21:56:26.597747147Z
+triggerEventTime: 2026-09-03T21:54:33Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'lint' (failure) at 2026-09-03T21:54:33Z; total 1 failed check(s) on commit 4d30a66
+startedAt: 2026-09-03T22:00:22.220206873Z
+completedAt: 2026-09-03T22:00:24.42685283Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 4d30a6664a272c06c1e60ec7517ff589f15137a6
