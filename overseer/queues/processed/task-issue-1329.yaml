@@ -1,0 +1,15 @@
+type: issue-fix
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/issues/1329
+number: 1329
+priority: medium
+phase: 3
+createdAt: 2026-09-02T15:38:37Z
+enqueuedAt: 2026-09-03T15:39:25.09061602Z
+triggerEventTime: 2026-09-03T15:13:32Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #1329 created at 2026-09-02T15:38:37Z; trigger label ''overseer'' added by barney-s at 2026-09-03T15:13:32Z'
+startedAt: 2026-09-03T15:39:53.550277617Z
+completedAt: 2026-09-03T15:43:54.674348553Z
+assignee: ada-coder-bot
+status: Failed
+error: exit status 1
