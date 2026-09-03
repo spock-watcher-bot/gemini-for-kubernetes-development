@@ -1,0 +1,15 @@
+type: pr-comments
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1315
+number: 1315
+priority: medium
+phase: 2
+createdAt: 2026-08-23T00:05:30Z
+enqueuedAt: 2026-09-03T05:50:54.304117682Z
+triggerEventTime: 2026-09-03T05:49:13Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-09-03T05:49:13Z (ID 5098263179) since last commit 8b1a20b (committer date 2026-09-03T05:43:44Z)
+startedAt: 2026-09-03T05:51:13.529925923Z
+completedAt: 2026-09-03T05:52:00.080843712Z
+assignee: daedalus-agent-bot
+status: Completed
+commitSHA: 8b1a20b66e2f7fa80ecc98a123324fba4606c27f

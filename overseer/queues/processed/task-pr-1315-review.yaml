@@ -1,0 +1,14 @@
+type: pr-review
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1315
+number: 1315
+priority: medium
+phase: 2
+createdAt: 2026-08-23T00:05:30Z
+enqueuedAt: 2026-09-03T05:45:48.097509657Z
+triggerEventTime: 2026-09-03T05:45:13Z
+triggerReason: PRReadyForReview
+triggerNotes: Automated review triggered; all CI checks passed at 2026-09-03T05:45:13Z for commit 8b1a20b (committer date 2026-09-03T05:43:44Z)
+startedAt: 2026-09-03T05:46:02.469482232Z
+completedAt: 2026-09-03T05:49:13.658672873Z
+status: Completed
+commitSHA: 8b1a20b66e2f7fa80ecc98a123324fba4606c27f
