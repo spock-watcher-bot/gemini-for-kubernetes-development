@@ -1,0 +1,14 @@
+type: issue-fix
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/issues/1334
+number: 1334
+priority: medium
+phase: 3
+createdAt: 2026-09-03T18:35:07Z
+enqueuedAt: 2026-09-03T18:35:31.261897901Z
+triggerEventTime: 2026-09-03T18:35:13Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #1334 created at 2026-09-03T18:35:07Z; trigger label ''overseer'' added by barney-s at 2026-09-03T18:35:13Z'
+startedAt: 2026-09-03T18:36:01.79054312Z
+completedAt: 2026-09-03T18:49:33.90655283Z
+assignee: lovelace-coder-bot
+status: Completed
