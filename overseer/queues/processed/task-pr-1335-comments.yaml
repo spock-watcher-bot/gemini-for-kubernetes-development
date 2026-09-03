@@ -1,0 +1,16 @@
+type: pr-comments
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1335
+number: 1335
+priority: medium
+phase: 2
+createdAt: 2026-09-03T18:49:01Z
+enqueuedAt: 2026-09-03T20:40:42.768387058Z
+triggerEventTime: 2026-09-03T20:38:18Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed review by reviewbot-robot added at 2026-09-03T20:38:18Z (ID 5106595204) since last commit fbf719d (committer date 2026-09-03T18:48:17Z)
+startedAt: 2026-09-03T20:41:13.16110076Z
+completedAt: 2026-09-03T20:50:05.297882273Z
+assignee: lovelace-coder-bot
+status: Failed
+error: exit status 1
+commitSHA: fbf719dab197b74b95d300a06a92ba95f1b7abf1
