@@ -1,0 +1,15 @@
+type: pr-iterate
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1335
+number: 1335
+priority: medium
+phase: 1
+createdAt: 2026-09-03T18:49:01Z
+enqueuedAt: 2026-09-04T21:06:59.400337934Z
+triggerEventTime: 2026-09-04T06:29:41Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #1335 has merge conflicts with base branch ''main''; head commit f86eae1 committer date 2026-09-04T06:29:41Z, PR updated at 2026-09-04T17:10:41Z'
+startedAt: 2026-09-04T21:07:15.431538661Z
+completedAt: 2026-09-04T21:10:59.008569603Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: f86eae1aafd59be46ee32816bce42443b690596c
