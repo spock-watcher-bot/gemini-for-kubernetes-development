@@ -4,12 +4,12 @@ number: 1335
 priority: medium
 phase: 3
 createdAt: 2026-09-03T18:49:01Z
-enqueuedAt: 2026-09-03T23:37:18.558984617Z
-triggerEventTime: 2026-09-03T23:34:50Z
+enqueuedAt: 2026-09-04T06:22:42.583871759Z
+triggerEventTime: 2026-09-04T06:19:36Z
 triggerReason: PRCheckFailed
-triggerNotes: Earliest CI failure in 'lint' (failure) at 2026-09-03T23:34:50Z; total 1 failed check(s) on commit 9b85337
-startedAt: 2026-09-03T23:37:50.371542137Z
-completedAt: 2026-09-03T23:43:07.578849301Z
+triggerNotes: Earliest CI failure in 'unit-test' (cancelled) at 2026-09-04T06:19:36Z; total 1 failed check(s) on commit c372c22
+startedAt: 2026-09-04T06:22:56.859984712Z
+completedAt: 2026-09-04T06:31:19.265786861Z
 assignee: lovelace-coder-bot
 status: Completed
-commitSHA: 9b85337f2ee1e6ec5eddc75d4cb73c4835ddacae
+commitSHA: c372c22be36bc81f9cc16593af3ecf8c7d523328
