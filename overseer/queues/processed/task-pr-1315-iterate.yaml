@@ -1,0 +1,16 @@
+type: pr-iterate
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1315
+number: 1315
+priority: medium
+phase: 1
+createdAt: 2026-08-23T00:05:30Z
+enqueuedAt: 2026-09-05T00:08:12.67475915Z
+triggerEventTime: 2026-09-03T05:43:44Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #1315 has merge conflicts with base branch ''main''; head commit 8b1a20b committer date 2026-09-03T05:43:44Z, PR updated at 2026-09-03T05:56:06Z'
+startedAt: 2026-09-05T00:08:22.56638125Z
+completedAt: 2026-09-05T00:12:23.972388064Z
+assignee: daedalus-agent-bot
+status: Failed
+error: exit status 1
+commitSHA: 8b1a20b66e2f7fa80ecc98a123324fba4606c27f
