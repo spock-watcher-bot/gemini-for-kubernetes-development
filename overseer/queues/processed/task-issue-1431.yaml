@@ -4,12 +4,12 @@ number: 1431
 priority: medium
 phase: 3
 createdAt: 2026-09-17T21:09:50Z
-enqueuedAt: 2026-09-18T23:10:38.88918991Z
+enqueuedAt: 2026-09-18T23:35:21.999750029Z
 triggerEventTime: 2026-09-18T23:05:42Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #1431 created at 2026-09-17T21:09:50Z; trigger label ''overseer'' added by barney-s at 2026-09-18T23:05:42Z'
-startedAt: 2026-09-18T23:10:41.203756422Z
-completedAt: 2026-09-18T23:16:12.397793784Z
+startedAt: 2026-09-18T23:35:23.472018628Z
+completedAt: 2026-09-18T23:38:45.386992906Z
 assignee: lovelace-coder-bot
 status: Failed
 error: exit status 1
