@@ -1,0 +1,15 @@
+type: agent-chore
+url: https://github.com/gke-labs/gemini-for-kubernetes-development
+number: 0
+priority: medium
+phase: 4
+createdAt: 2026-09-18T17:13:00.213405813Z
+enqueuedAt: 2026-09-18T17:13:00.213405813Z
+triggerEventTime: 2026-09-18T17:13:00.213405813Z
+triggerReason: ChoreScheduled
+triggerNotes: 'Chore agent ''gemini-model-updates'' (schedule: ''@weekly'') due at 2026-09-18T17:13:00Z; last run: never'
+startedAt: 2026-09-18T17:13:31.39952739Z
+completedAt: 2026-09-18T17:25:05.652521832Z
+status: Failed
+error: exit status 1
+agentFile: .agents/gemini-model-updates.yaml
