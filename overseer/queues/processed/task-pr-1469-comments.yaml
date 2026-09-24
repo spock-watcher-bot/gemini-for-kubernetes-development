@@ -1,0 +1,15 @@
+type: pr-comments
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1469
+number: 1469
+priority: medium
+phase: 1
+createdAt: 2026-09-19T00:15:54Z
+enqueuedAt: 2026-09-24T19:01:51.76022187Z
+triggerEventTime: 2026-09-24T18:53:19Z
+triggerReason: PRCommentsAdded
+triggerNotes: Oldest unaddressed inline review comment by sdowell added at 2026-09-24T18:53:19Z (ID 4097282124) since last commit 704ac35 (committer date 2026-09-24T18:32:19Z)
+startedAt: 2026-09-24T19:02:13.954306502Z
+completedAt: 2026-09-24T19:12:42.413721468Z
+assignee: lovelace-coder-bot
+status: Completed
+commitSHA: 704ac353f6f645b2073df4f5bde44c61599efc43
