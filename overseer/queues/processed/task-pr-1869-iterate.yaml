@@ -1,0 +1,18 @@
+type: pr-iterate
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1869
+number: 1869
+priority: medium
+phase: 2
+createdAt: 2026-10-10T02:00:42Z
+enqueuedAt: 2026-10-20T05:55:37.806553399Z
+triggerEventTime: 2026-10-12T15:56:36Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #1869 has merge conflicts with base branch ''main''; head commit e273e48 committer date 2026-10-12T15:56:36Z, PR updated at 2026-10-12T15:58:11Z'
+startedAt: 2026-10-20T05:55:57.836586376Z
+completedAt: 2026-10-20T05:56:39.031910316Z
+assignee: neumann-coder-bot
+status: Failed
+error: exit status 1
+commitSHA: e273e484cdd63e95fe365cf064f1622e393d42ec
+expect:
+    - head
