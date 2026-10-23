@@ -1,4 +1,4 @@
-type: pr-iterate
+type: pr-rule
 url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1869
 number: 1869
 priority: medium
@@ -13,5 +13,5 @@ completedAt: 2026-10-20T06:31:14.336134879Z
 assignee: neumann-coder-bot
 status: Completed
 commitSHA: e273e484cdd63e95fe365cf064f1622e393d42ec
-expect:
-    - head
+runName: iterate-1869-e273e48-1792477549
+rule: conflict
