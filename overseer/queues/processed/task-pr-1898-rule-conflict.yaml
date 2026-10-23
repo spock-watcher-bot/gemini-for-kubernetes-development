@@ -1,4 +1,4 @@
-type: pr-iterate
+type: pr-rule
 url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1898
 number: 1898
 priority: medium
@@ -13,6 +13,7 @@ completedAt: 2026-10-22T06:49:59.536930798Z
 assignee: ada-coder-bot
 status: Completed
 commitSHA: 49b0be60df8b8b7da1ab05e8f330e6691c4e554e
+runName: iterate-1898-49b0be6-1792651224
 rule: conflict
 recipe: care-rebase
 apply: post-replies
