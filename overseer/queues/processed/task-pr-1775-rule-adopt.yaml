@@ -1,0 +1,22 @@
+type: pr-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/1775
+number: 1775
+priority: medium
+phase: 1
+createdAt: 2026-10-06T17:23:45Z
+enqueuedAt: 2026-10-23T23:14:25.1514797Z
+triggerEventTime: 2026-10-23T22:58:54Z
+triggerReason: RuleDecided
+triggerNotes: The adopt rule decided to run on commit ff1c88e
+startedAt: 2026-10-23T23:14:41.450061193Z
+completedAt: 2026-10-23T23:14:41.713069513Z
+assignee: barney-s
+status: Failed
+error: PR author 'barney-s' is not in the configured bot pool for role 'coder'
+commitSHA: ff1c88e9ad3b5426fb1876e375d6cc7acf3d2bac
+runName: adopt-1775-ff1c88e-1792797265
+rule: adopt
+recipe: adopt
+apply: open-pr
+inputs:
+    strategy: reuse
