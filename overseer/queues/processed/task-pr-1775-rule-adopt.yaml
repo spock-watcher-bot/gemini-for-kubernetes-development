@@ -4,17 +4,17 @@ number: 1775
 priority: medium
 phase: 1
 createdAt: 2026-10-06T17:23:45Z
-enqueuedAt: 2026-10-23T23:14:25.1514797Z
+enqueuedAt: 2026-10-23T23:34:28.563860548Z
 triggerEventTime: 2026-10-23T22:58:54Z
 triggerReason: RuleDecided
 triggerNotes: The adopt rule decided to run on commit ff1c88e
-startedAt: 2026-10-23T23:14:41.450061193Z
-completedAt: 2026-10-23T23:14:41.713069513Z
+startedAt: 2026-10-23T23:34:48.06584618Z
+completedAt: 2026-10-23T23:35:01.165431768Z
 assignee: barney-s
 status: Failed
-error: PR author 'barney-s' is not in the configured bot pool for role 'coder'
+error: 'exit status 1: running recipe: task failed with exit code 1'
 commitSHA: ff1c88e9ad3b5426fb1876e375d6cc7acf3d2bac
-runName: adopt-1775-ff1c88e-1792797265
+runName: adopt-1775-ff1c88e-1792798468
 rule: adopt
 recipe: adopt
 apply: open-pr
