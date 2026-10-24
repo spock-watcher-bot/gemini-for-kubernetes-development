@@ -1,0 +1,26 @@
+type: issue-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/issues/1341
+number: 1341
+priority: medium
+phase: 3
+createdAt: 2026-09-08T15:08:15Z
+enqueuedAt: 2026-10-24T07:09:52.618584675Z
+triggerEventTime: 2026-09-09T17:42:38Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #1341 created at 2026-09-08T15:08:15Z; trigger label ''overseer'' added by barney-s at 2026-09-09T17:42:38Z'
+startedAt: 2026-10-24T07:10:22.423441475Z
+completedAt: 2026-10-24T07:14:07.041108742Z
+assignee: ada-coder-bot
+status: Completed
+onSuccess:
+    label:
+        - overseer/triaged
+onFailure:
+    comment: Triaging this issue failed; apply the triage label again to retry.
+onEnd:
+    unlabel:
+        - overseer/triage
+runName: triage-1341-head-1792825792
+rule: triage
+recipe: triage
+apply: comment
