@@ -1,0 +1,24 @@
+type: pr-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/2111
+number: 2111
+priority: medium
+phase: 2
+createdAt: 2026-10-24T05:23:59Z
+enqueuedAt: 2026-10-24T05:32:47.716919726Z
+triggerEventTime: 2026-10-06T17:23:34Z
+triggerReason: PRMergeConflict
+triggerNotes: 'PR #2111 has merge conflicts with base branch ''main''; head commit ff1c88e committer date 2026-10-06T17:23:34Z, PR updated at 2026-10-24T05:24:01Z'
+startedAt: 2026-10-24T05:33:17.691072126Z
+completedAt: 2026-10-24T05:52:19.217257888Z
+assignee: ada-coder-bot
+status: Completed
+commitSHA: ff1c88e9ad3b5426fb1876e375d6cc7acf3d2bac
+onStart:
+    comment: |-
+        AI Factory started resolving merge conflicts / rebasing this pull request in a sandbox.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: conflict-2111-ff1c88e-1792819967
+rule: conflict
+recipe: care-rebase
+apply: post-replies
