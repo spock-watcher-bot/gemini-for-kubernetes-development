@@ -4,12 +4,12 @@ number: 1775
 priority: medium
 phase: 1
 createdAt: 2026-10-06T17:23:45Z
-enqueuedAt: 2026-10-24T05:00:39.244455179Z
-triggerEventTime: 2026-10-24T04:52:10Z
+enqueuedAt: 2026-10-24T05:23:21.554644303Z
+triggerEventTime: 2026-10-24T05:21:58Z
 triggerReason: RuleDecided
 triggerNotes: The adopt rule decided to run on commit ff1c88e
-startedAt: 2026-10-24T05:01:00.90909217Z
-completedAt: 2026-10-24T05:03:27.497411516Z
+startedAt: 2026-10-24T05:23:45.327974Z
+completedAt: 2026-10-24T05:24:02.637045114Z
 assignee: barney-s
 status: Completed
 commitSHA: ff1c88e9ad3b5426fb1876e375d6cc7acf3d2bac
@@ -18,7 +18,7 @@ onFailure:
 onEnd:
     unlabel:
         - overseer/adopt
-runName: adopt-1775-ff1c88e-1792818039
+runName: adopt-1775-ff1c88e-1792819401
 rule: adopt
 recipe: adopt
 apply: open-pr
