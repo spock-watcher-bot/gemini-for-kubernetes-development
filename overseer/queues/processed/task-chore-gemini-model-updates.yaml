@@ -3,14 +3,15 @@ url: https://github.com/gke-labs/gemini-for-kubernetes-development
 number: 0
 priority: medium
 phase: 4
-createdAt: 2026-10-18T00:00:13.605240277Z
-enqueuedAt: 2026-10-18T00:00:13.605240277Z
-triggerEventTime: 2026-10-18T00:00:00Z
+createdAt: 2026-10-25T00:00:07.342476453Z
+enqueuedAt: 2026-10-25T00:00:07.342476453Z
+triggerEventTime: 2026-10-25T00:00:00Z
 triggerReason: ChoreScheduled
-triggerNotes: 'Chore agent ''gemini-model-updates'' (schedule: ''@weekly'') due at 2026-10-18T00:00:00Z; last run: 2026-10-16T21:55:20Z'
-startedAt: 2026-10-18T00:00:14.905502489Z
-completedAt: 2026-10-18T00:04:58.322670243Z
+triggerNotes: 'Chore agent ''gemini-model-updates'' (schedule: ''@weekly'') due at 2026-10-25T00:00:00Z; last run: 2026-10-18T00:00:13Z'
+startedAt: 2026-10-25T00:00:09.074781367Z
+completedAt: 2026-10-25T00:09:55.705819602Z
 status: Failed
-error: exit status 1
+error: 'exit status 1: applying the Change for https://github.com/gke-labs/gemini-for-kubernetes-development: target "https://github.com/gke-labs/gemini-for-kubernetes-development" is not a GitHub issue or PR URL'
 agentFile: .agents/gemini-model-updates.yaml
 agentName: gemini-model-updates
+runName: agent-0-1792886407
