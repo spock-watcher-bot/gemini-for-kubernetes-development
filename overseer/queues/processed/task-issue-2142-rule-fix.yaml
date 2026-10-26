@@ -4,12 +4,12 @@ number: 2142
 priority: medium
 phase: 3
 createdAt: 2026-10-26T02:39:34Z
-enqueuedAt: 2026-10-26T02:40:36.307222775Z
-triggerEventTime: 2026-10-26T02:40:34Z
+enqueuedAt: 2026-10-26T21:41:15.415791225Z
+triggerEventTime: 2026-10-26T21:38:25Z
 triggerReason: IssueLabeled
-triggerNotes: 'Issue #2142 created at 2026-10-26T02:39:34Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-26T02:40:34Z'
-startedAt: 2026-10-26T02:41:03.037206417Z
-completedAt: 2026-10-26T02:52:04.339665865Z
+triggerNotes: 'Issue #2142 created at 2026-10-26T02:39:34Z; trigger label ''overseer'' added by barney-s at 2026-10-26T21:38:25Z'
+startedAt: 2026-10-26T21:41:45.493565929Z
+completedAt: 2026-10-26T21:46:49.744507161Z
 assignee: hopper-coder-bot
 status: Completed
 onStart:
@@ -18,7 +18,7 @@ onStart:
     unassign:
         - spock-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-2142-head-1792982436
+runName: fix-2142-head-1793050875
 rule: fix
 recipe: fix
 apply: open-pr
