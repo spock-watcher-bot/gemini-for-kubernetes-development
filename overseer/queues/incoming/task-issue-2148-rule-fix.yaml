@@ -10,12 +10,13 @@ triggerReason: IssueLabeled
 triggerNotes: 'Issue #2148 created at 2026-10-26T19:28:20Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-26T19:28:22Z'
 startedAt: 2026-10-26T19:30:49.217512201Z
 assignee: neumann-coder-bot
-status: Running
+status: Pending
 onStart:
     assign:
         - '{{bot}}'
     comment: AI Factory started fixing this issue in a sandbox.
 runName: fix-2148-head-1793043019
+recovered: true
 rule: fix
 recipe: fix
 apply: open-pr

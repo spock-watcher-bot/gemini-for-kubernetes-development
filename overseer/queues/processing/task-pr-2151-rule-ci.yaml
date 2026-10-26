@@ -1,0 +1,23 @@
+type: pr-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/pull/2151
+number: 2151
+priority: medium
+phase: 3
+createdAt: 2026-10-26T20:01:09Z
+enqueuedAt: 2026-10-26T20:25:37.080295683Z
+triggerEventTime: 2026-10-26T20:25:27Z
+triggerReason: PRCheckFailed
+triggerNotes: Earliest CI failure in 'go-build' (failure) at 2026-10-26T20:25:27Z; total 1 failed check(s) on commit b4e75b9
+startedAt: 2026-10-26T20:25:54.935649089Z
+assignee: lovelace-coder-bot
+status: Running
+commitSHA: b4e75b90767da89c9da520b0e34e410961ed507c
+onStart:
+    comment: |-
+        AI Factory started investigating CI check failures for this pull request.
+
+        Note: We recommend waiting for the 'ready-for-human' label before leaving review comments. Comments added while the system is actively working may be associated with outdated commits once a new commit is pushed, causing them to be ignored.
+runName: ci-2151-b4e75b9-1793046337
+rule: ci
+recipe: care-ci
+apply: post-replies
