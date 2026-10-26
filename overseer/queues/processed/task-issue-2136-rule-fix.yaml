@@ -1,0 +1,27 @@
+type: issue-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/issues/2136
+number: 2136
+priority: medium
+phase: 3
+createdAt: 2026-10-26T00:21:49Z
+enqueuedAt: 2026-10-26T00:23:51.559060011Z
+triggerEventTime: 2026-10-26T00:21:50Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #2136 created at 2026-10-26T00:21:49Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-26T00:21:50Z'
+startedAt: 2026-10-26T00:24:19.569260317Z
+completedAt: 2026-10-26T00:33:27.718925837Z
+assignee: ada-coder-bot
+status: Completed
+onStart:
+    assign:
+        - '{{bot}}'
+    unassign:
+        - spock-watcher-bot
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-2136-head-1792974231
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true
