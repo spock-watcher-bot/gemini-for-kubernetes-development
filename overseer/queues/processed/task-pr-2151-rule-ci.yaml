@@ -9,8 +9,10 @@ triggerEventTime: 2026-10-26T20:25:27Z
 triggerReason: PRCheckFailed
 triggerNotes: Earliest CI failure in 'go-build' (failure) at 2026-10-26T20:25:27Z; total 1 failed check(s) on commit b4e75b9
 startedAt: 2026-10-26T20:25:54.935649089Z
+completedAt: 2026-10-26T20:43:59.433677618Z
 assignee: lovelace-coder-bot
-status: Running
+status: Failed
+error: 'exit status 1: applying the Change for https://github.com/gke-labs/gemini-for-kubernetes-development/pull/2151: rerunning run 40391904340: POST https://api.github.com/repos/gke-labs/gemini-for-kubernetes-development/actions/runs/40391904340/rerun-failed-jobs: 403 Must have admin rights to Repository. []'
 commitSHA: b4e75b90767da89c9da520b0e34e410961ed507c
 onStart:
     comment: |-
