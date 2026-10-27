@@ -4,19 +4,22 @@ number: 2166
 priority: medium
 phase: 3
 createdAt: 2026-10-27T07:12:16Z
-enqueuedAt: 2026-10-27T07:13:17.414254663Z
-triggerEventTime: 2026-10-27T07:12:18Z
+enqueuedAt: 2026-10-27T16:40:12.459560223Z
+triggerEventTime: 2026-10-27T16:40:09Z
 triggerReason: IssueLabeled
-triggerNotes: 'Issue #2166 created at 2026-10-27T07:12:16Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-27T07:12:18Z'
-startedAt: 2026-10-27T07:13:45.769248954Z
-completedAt: 2026-10-27T08:02:19.949935193Z
+triggerNotes: 'Issue #2166 created at 2026-10-27T07:12:16Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-27T16:40:09Z'
+startedAt: 2026-10-27T16:40:40.03385589Z
+completedAt: 2026-10-27T16:46:46.318560296Z
 assignee: lovelace-coder-bot
-status: Completed
+status: Failed
+error: 'exit status 1: connecting to sandbox: sandbox fix-gemini-for-kubernetes-development-2166 has no task server to use (timed out waiting for sandbox pod fix-gemini-for-kubernetes-development-2166 to become ready); recreate it on a current image'
 onStart:
     assign:
         - '{{bot}}'
+    unassign:
+        - spock-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-2166-head-1793085197
+runName: fix-2166-head-1793119212
 rule: fix
 recipe: fix
 apply: open-pr
