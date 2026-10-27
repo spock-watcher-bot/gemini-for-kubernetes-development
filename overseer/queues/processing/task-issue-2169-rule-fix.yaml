@@ -4,20 +4,18 @@ number: 2169
 priority: medium
 phase: 3
 createdAt: 2026-10-27T16:35:09Z
-enqueuedAt: 2026-10-27T17:00:23.830454457Z
+enqueuedAt: 2026-10-27T18:24:50.826334561Z
 triggerEventTime: 2026-10-27T16:48:52Z
 triggerReason: IssueLabeled
 triggerNotes: 'Issue #2169 created at 2026-10-27T16:35:09Z; trigger label ''overseer'' added by barney-s at 2026-10-27T16:48:52Z'
-startedAt: 2026-10-27T17:00:51.960916642Z
-assignee: lovelace-coder-bot
+startedAt: 2026-10-27T18:25:20.471608876Z
+assignee: ada-coder-bot
 status: Running
 onStart:
     assign:
         - '{{bot}}'
-    unassign:
-        - spock-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-2169-head-1793120423
+runName: fix-2169-head-1793125490
 rule: fix
 recipe: fix
 apply: open-pr

@@ -4,20 +4,22 @@ number: 2169
 priority: medium
 phase: 3
 createdAt: 2026-10-27T16:35:09Z
-enqueuedAt: 2026-10-27T16:36:10.46458912Z
-triggerEventTime: 2026-10-27T16:35:10Z
+enqueuedAt: 2026-10-27T17:00:23.830454457Z
+triggerEventTime: 2026-10-27T16:48:52Z
 triggerReason: IssueLabeled
-triggerNotes: 'Issue #2169 created at 2026-10-27T16:35:09Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-27T16:35:10Z'
-startedAt: 2026-10-27T16:36:38.502470138Z
-completedAt: 2026-10-27T16:39:18.335796699Z
-assignee: neumann-coder-bot
+triggerNotes: 'Issue #2169 created at 2026-10-27T16:35:09Z; trigger label ''overseer'' added by barney-s at 2026-10-27T16:48:52Z'
+startedAt: 2026-10-27T17:00:51.960916642Z
+completedAt: 2026-10-27T18:03:26.12725428Z
+assignee: lovelace-coder-bot
 status: Failed
-error: 'exit status 1: running recipe: following task recipe-fix-20261027-163720-d4f5: Get "http://127.0.0.1:42215/v1/tasks/recipe-fix-20261027-163720-d4f5/log?follow=true&offset=2198": dial tcp 127.0.0.1:42215: connect: connection refused'
+error: 'exit status 1: task recipe-fix-20261027-170150-e9e0: following task recipe-fix-20261027-170150-e9e0: Get "http://127.0.0.1:44809/v1/tasks/recipe-fix-20261027-170150-e9e0/log?follow=true&offset=2199": dial tcp 127.0.0.1:44809: connect: connection refused'
 onStart:
     assign:
         - '{{bot}}'
+    unassign:
+        - spock-watcher-bot
     comment: AI Factory started fixing this issue in a sandbox.
-runName: fix-2169-head-1793118970
+runName: fix-2169-head-1793120423
 rule: fix
 recipe: fix
 apply: open-pr
