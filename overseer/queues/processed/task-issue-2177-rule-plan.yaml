@@ -4,15 +4,15 @@ number: 2177
 priority: medium
 phase: 3
 createdAt: 2026-10-28T00:05:34Z
-enqueuedAt: 2026-10-28T00:06:02.978471667Z
-triggerEventTime: 2026-10-28T00:05:34Z
-triggerReason: IssueCreated
-triggerNotes: 'Issue #2177 created at 2026-10-28T00:05:34Z with trigger label ''overseer'''
-startedAt: 2026-10-28T00:06:31.410070157Z
-completedAt: 2026-10-28T01:19:49.80636132Z
-assignee: ada-coder-bot
+enqueuedAt: 2026-10-28T01:27:43.417716538Z
+triggerEventTime: 2026-10-28T01:21:31Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #2177 created at 2026-10-28T00:05:34Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-28T01:21:31Z'
+startedAt: 2026-10-28T01:28:12.56779382Z
+completedAt: 2026-10-28T02:03:28.959565712Z
+assignee: neumann-coder-bot
 status: Failed
-error: 'exit status 1: task recipe-plan-20261028-000729-11ff failed (exit 1); nothing applied. Its log: factory sandbox task logs fix-gemini-for-kubernetes-development-2177 -n overseer-overseer --task recipe-plan-20261028-000729-11ff'
+error: 'exit status 1: task recipe-plan-20261028-012907-dd64 failed (exit 1); nothing applied. Its log: factory sandbox task logs fix-gemini-for-kubernetes-development-2177 -n overseer-overseer --task recipe-plan-20261028-012907-dd64'
 onSuccess:
     label:
         - overseer/planned
@@ -21,7 +21,7 @@ onFailure:
 onEnd:
     unlabel:
         - overseer/plan
-runName: plan-2177-head-1793145962
+runName: plan-2177-head-1793150863
 rule: plan
 recipe: plan
 apply: comment
