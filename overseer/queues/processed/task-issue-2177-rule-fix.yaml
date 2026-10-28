@@ -1,0 +1,28 @@
+type: issue-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/issues/2177
+number: 2177
+priority: medium
+phase: 3
+createdAt: 2026-10-28T00:05:34Z
+enqueuedAt: 2026-10-28T01:21:31.977048174Z
+triggerEventTime: 2026-10-28T00:05:34Z
+triggerReason: IssueCreated
+triggerNotes: 'Issue #2177 created by barney-s at 2026-10-28T00:05:34Z; trigger label ''overseer'' auto-applied by watcher'
+startedAt: 2026-10-28T01:21:50.308131331Z
+completedAt: 2026-10-28T01:25:28.334001066Z
+assignee: ada-coder-bot
+status: Failed
+error: 'exit status 1: running recipe: following task recipe-fix-20261028-012153-7eed: Get "http://127.0.0.1:44809/v1/tasks/recipe-fix-20261028-012153-7eed/log?follow=true&offset=3972": dial tcp 127.0.0.1:44809: connect: connection refused'
+onStart:
+    assign:
+        - '{{bot}}'
+    unassign:
+        - spock-watcher-bot
+    comment: AI Factory started fixing this issue in a sandbox.
+runName: fix-2177-head-1793150491
+rule: fix
+recipe: fix
+apply: open-pr
+inputs:
+    draft: "false"
+prLabels: true

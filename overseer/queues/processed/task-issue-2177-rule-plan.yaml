@@ -9,8 +9,10 @@ triggerEventTime: 2026-10-28T00:05:34Z
 triggerReason: IssueCreated
 triggerNotes: 'Issue #2177 created at 2026-10-28T00:05:34Z with trigger label ''overseer'''
 startedAt: 2026-10-28T00:06:31.410070157Z
+completedAt: 2026-10-28T01:19:49.80636132Z
 assignee: ada-coder-bot
-status: Pending
+status: Failed
+error: 'exit status 1: task recipe-plan-20261028-000729-11ff failed (exit 1); nothing applied. Its log: factory sandbox task logs fix-gemini-for-kubernetes-development-2177 -n overseer-overseer --task recipe-plan-20261028-000729-11ff'
 onSuccess:
     label:
         - overseer/planned
@@ -20,7 +22,6 @@ onEnd:
     unlabel:
         - overseer/plan
 runName: plan-2177-head-1793145962
-recovered: true
 rule: plan
 recipe: plan
 apply: comment
