@@ -10,7 +10,7 @@ triggerReason: IssueCreated
 triggerNotes: 'Issue #2177 created at 2026-10-28T00:05:34Z with trigger label ''overseer'''
 startedAt: 2026-10-28T00:06:31.410070157Z
 assignee: ada-coder-bot
-status: Running
+status: Pending
 onSuccess:
     label:
         - overseer/planned
@@ -20,6 +20,7 @@ onEnd:
     unlabel:
         - overseer/plan
 runName: plan-2177-head-1793145962
+recovered: true
 rule: plan
 recipe: plan
 apply: comment
