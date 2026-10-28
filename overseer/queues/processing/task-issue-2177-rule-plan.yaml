@@ -1,0 +1,25 @@
+type: issue-rule
+url: https://github.com/gke-labs/gemini-for-kubernetes-development/issues/2177
+number: 2177
+priority: medium
+phase: 3
+createdAt: 2026-10-28T00:05:34Z
+enqueuedAt: 2026-10-28T01:27:43.417716538Z
+triggerEventTime: 2026-10-28T01:21:31Z
+triggerReason: IssueLabeled
+triggerNotes: 'Issue #2177 created at 2026-10-28T00:05:34Z; trigger label ''overseer'' added by spock-watcher-bot at 2026-10-28T01:21:31Z'
+startedAt: 2026-10-28T01:28:12.56779382Z
+assignee: neumann-coder-bot
+status: Running
+onSuccess:
+    label:
+        - overseer/planned
+onFailure:
+    comment: Planning failed; apply the plan label again to retry.
+onEnd:
+    unlabel:
+        - overseer/plan
+runName: plan-2177-head-1793150863
+rule: plan
+recipe: plan
+apply: comment
